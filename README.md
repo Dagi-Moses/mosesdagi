@@ -31,23 +31,29 @@ Check it out here: https://mosesdagi.vercel.app.com
 
 ## Getting Started
 
-1. Clone the repo:
+1. **Clone the repo:**
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Dagi-Moses/mosesdagi
 cd mosesdagi
 
-2. Install Dependencies:
+---
+
+2. **Install Dependencies:**
 
 npm install
 # or
 yarn
 
-3. Copy .env.example to .env.local
+---
+
+3. **Copy .env.example to .env.local**
 
 cp .env.example .env.local
 
-4. Run the development server
+---
+
+4. **Run the development server**
 
 npm run dev
 # or

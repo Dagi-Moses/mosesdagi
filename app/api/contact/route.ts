@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
 
     await transporter.sendMail({
       from: `"Contact Form" <${process.env.SMTP_USER}>`,
-      to: "nodetechnologiessolution@gmail.com",
+      to: process.env.SMTP_USER,
       replyTo: email,
       subject: `New Contact message from ${app}`,
       html: `
