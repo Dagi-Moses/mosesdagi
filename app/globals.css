@@ -158,6 +158,7 @@
 @utility meteor {
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
   box-shadow: 0 0 10px 2px rgba(255, 255 255, 0.3);
+  will-change: transform, opacity;
 }
 
 #root {
