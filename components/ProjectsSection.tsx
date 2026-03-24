@@ -17,8 +17,17 @@ export interface Project {
 
 
 const projects: Project[] = [
+{
+  id: 1,
+  title: "Qrynex",
+  description: "Create, track, and manage dynamic QR codes and links with real-time analytics and secure routing. Perfect for businesses, marketers and personal use.",
+  image: "/projects/qrynex.png",
+  tags: ["Next.js", "TypeScript", "Node.js", "Prisma", "PostgreSQL", "React"],
+  demoUrl: "https://qrynex.vercel.app",
+  type: "web"
+},
   {
-    id: 1,
+    id: 2,
     title: "Punch Anniversary",
     description:
       "A web platform I built to manage and showcase Punch Nigeria’s annual anniversary events, including event registration, media galleries, and milestone highlights",
@@ -27,16 +36,6 @@ const projects: Project[] = [
     tags: ["Flutter", "Node.js", "MongoDB"],
 
     githubUrl: "https://github.com/Dagi-Moses/punch_demo",
-    type: "web"
-  },
-
-  {
-    id: 2,
-    title: "Lextorah AI Tutor",
-    description:
-      "An AI-powered learning assistant designed to help students understand complex topics through interactive explanations, guided practice, and instant feedback. It adapts to each learner’s pace, simplifies difficult concepts, and supports continuous learning across subjects",
-    image: "/projects/lextorah.png",
-    tags: ["Flutter", "Dart", "Python"],
     type: "web"
   },
 
