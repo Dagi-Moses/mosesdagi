@@ -22,8 +22,8 @@ const projects: Project[] = [
   title: "Qrynex",
   description: "Create, track, and manage dynamic QR codes and links with real-time analytics and secure routing. Perfect for businesses, marketers and personal use.",
   image: "/projects/qrynex.png",
-  tags: ["Next.js", "TypeScript", "Node.js", "Prisma", "PostgreSQL", "React"],
-  demoUrl: "https://qrynex.vercel.app",
+  tags: ["Next.js", "TypeScript", "Node.js", "Prisma", "PostgreSQL"],
+  demoUrl: "https://qrynex.com",
   type: "web"
 },
   {
