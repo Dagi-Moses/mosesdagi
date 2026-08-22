@@ -51,6 +51,28 @@ const projects: Project[] = [
     type: "mobile"
   },
 
+    {
+    id: 4,
+    title: "IT Helpdesk",
+    description:
+      "A platform for managing IT support requests and issues. It enables users to submit tickets and track their status while administrators manage and resolve problems.",
+    image: "/projects/helpdesk.png",
+    tags: ["Next.js", "PostgreSQL", "Node.js", "TypeScript", 'Prisma', 'Docker'],
+    demoUrl: 'https://helpdesk.qrynex.com/',
+    githubUrl: 'https://github.com/Dagi-Moses/helpdesk',
+    type: "web"
+  },
+ {
+    id: 5,
+    title: "Lextorah AI Tutor",
+    description:
+      "Demo Version of an AI-powered tutor that provides personalized learning experiences, offering explanations, practice questions, and feedback to help students understand complex concepts.",
+    image: "/projects/lextorah.png",
+    tags: ["Flutter", "Python", "TensorFlow"],
+  //  demoUrl: 'https://lextorah-chat-bot-admin.vercel.app',
+    githubUrl: 'https://github.com/Dagi-Moses/lextorah_ai_admin',
+    type: "web"
+  },
 
 ];
 
@@ -95,19 +117,6 @@ export const ProjectsSection = () => {
                 />
 
               </div>
-
-
-              {/* <div className="relative h-48 overflow-hidden">
-
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  loading="lazy"
-                  decoding="async"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-              </div> */}
 
               <div className="p-4">
                 <div className="flex flex-wrap gap-2 mb-4">
