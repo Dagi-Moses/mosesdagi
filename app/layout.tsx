@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     default: "Moses Dagi | Software Developer",
     template: "%s | Moses Dagi",
   },
+   manifest: "/manifest.json",
   description:
     "Moses Dagi is a Software Engineer and IT professional specializing in React, Flutter, Node.js, and full-stack development. Founder of NodeTech, building scalable web and mobile solutions.",
   keywords: [
